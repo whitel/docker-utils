@@ -92,7 +92,7 @@ class Create(object):
                                  'Cmd', 'CpuShares', 'Cpuset', 'Env', 'Hostname',
                                  'Image', 'Memory', 'Tty', 'User', 'WorkingDir'
                                  },
-                      'HostConfig': {'Binds', 'CapAdd', 'CapDrop', 'ContainerIDFile', 'Dns',
+                      'HostConfig': {'Binds', 'ContainerIDFile', 'Dns',
                                      'DnsSearch', 'Links', 'LxcConf', 'NetworkMode',
                                      'PortBindings', 'Privileged', 'PublishAllPorts'
                                      }

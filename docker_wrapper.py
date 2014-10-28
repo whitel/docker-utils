@@ -44,7 +44,7 @@ class Run(object):
         newdict = {}
         keymap = {'CpuShares':'cpu-shares', 'Cpuset':'cpuset', 'Env':'env', 'Hostname':'hostname',
                 'Image':'image', 'Memory':'memory', 'Tty':'tty', 'User':'user', 'WorkingDir':'workdir',
-                'CapAdd':'cap-add', 'CapDrop':'cap-drop', 'ContainerIDFile':'cidfile', 'Dns':'dns',
+                'ContainerIDFile':'cidfile', 'Dns':'dns',
                 'DnsSearch':'dns-search', 'Links':'link', 'LxcConf':'lxc-conf', 'NetworkMode':'net',
                 'PortBindings':'publish', 'Privileged':'privileged', 'PublishAllPorts':'publish=all',
                 'Binds':'volume'
